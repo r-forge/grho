@@ -1,0 +1,16 @@
+Package: Grho
+Type: Package
+Title: Grho parameters for asymptotic regression
+Version: 0.2
+Date: 2008-07-29
+Author: Douglas Bates and John Goeser
+Maintainer: Douglas Bates <bates@R-project.org>
+Description: The asymptotic regression model is often used in the
+  analysis of NDF digestion data but the usual parameters are very
+  highly correlated.  This package uses an alternative set of
+  parameters -- the expected responses at 24, 36 and 48 hours - that
+  are more stable.  For reasons we have now forgotten we called these
+  Grho.
+License: GPL (>=2)
+LazyLoad: yes
+LazyData: yes
