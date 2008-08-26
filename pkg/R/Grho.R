@@ -7,6 +7,6 @@ function(Time, alpha, beta, gamma)
     Br2 <- (beta - alpha)/(rho - 1)
     A <- alpha - Br2
     B <- Br2/(rho*rho)
-    A + B * exp(- rc * Time)
+    unname(A + B * exp(- rc * Time))
 }
 
